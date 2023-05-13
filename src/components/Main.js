@@ -12,8 +12,11 @@ export default function Main() {
     if (currentPage === 'Home') {
       return <About />;
     }
-    if (currentPage === 'contact') {
+    if (currentPage === 'Contact') {
       return <Contact />;
+    }
+    if (currentPage === 'Resume') {
+      return <About />;
     }
     return <Contact />;
   };

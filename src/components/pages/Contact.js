@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <form action="mailto:sinthushan@gmail.com" method="get" enctype="text/plain">
+    <form action="mailto:sinthushan@gmail.com" method="get">
       <div>
         <label for="name" class="form-label">Name:</label>
         <input type="text" name="subject" class="form-control" id="name"/>
@@ -15,6 +15,7 @@ export default function About() {
         <label for="message" class="form-label">Message:</label>
         <textarea class="form-control" name="body" id="message"/>
       </div>
+      <input type="submit" value="Send"/>
     </form>
   );
 }
