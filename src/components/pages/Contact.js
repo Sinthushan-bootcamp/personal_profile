@@ -2,16 +2,19 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+    <form action="mailto:sinthushan@gmail.com" method="get" enctype="text/plain">
+      <div>
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" name="subject" class="form-control" id="name"/>
+      </div>
+      <div>
+        <label for="email" class="form-label">Email address:</label>
+        <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com" />
+      </div>
+      <div>
+        <label for="message" class="form-label">Message:</label>
+        <textarea class="form-control" name="body" id="message"/>
+      </div>
+    </form>
   );
 }
