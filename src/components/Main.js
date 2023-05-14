@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Projects from './pages/Projects';
 import Header from "./Header";
 
 export default function Main() {
@@ -15,8 +16,8 @@ export default function Main() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    if (currentPage === 'Resume') {
-      return <About />;
+    if (currentPage === 'Projects') {
+      return <Projects />;
     }
     return <Contact />;
   };

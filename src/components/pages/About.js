@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Contact() {
+export default function About() {
   return (
     <section id="aboutMe">
         <h2>About Me</h2>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function About() {
+export default function Contact() {
   return (
     <form action="mailto:sinthushan@gmail.com" method="get">
       <div>
