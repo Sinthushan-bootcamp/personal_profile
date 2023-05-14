@@ -4,7 +4,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Header from "./Header";
-
+import Resume from './pages/Resume';
 export default function Main() {
   const [currentPage, setCurrentPage] = useState('Home');
   const handlePageChange = (page) => setCurrentPage(page);
@@ -19,7 +19,7 @@ export default function Main() {
     if (currentPage === 'Projects') {
       return <Projects />;
     }
-    return <Contact />;
+    return <Resume />;
   };
 
   return (
