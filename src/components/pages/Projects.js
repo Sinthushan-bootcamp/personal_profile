@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from "../Project";
-
+import '../../styles/Project.css';
 const projects = [
     {
         name : 'Just Another Text Editor',
@@ -49,9 +49,9 @@ const projects = [
 
 export default function Projects() {
     return (
-      <section id="aboutMe">
+      <section id="projects">
           <h2>Projects</h2>
-          <article>
+          <article id="projectContainer">
             {projects.map((project) => {
                 return (
                     <Project 

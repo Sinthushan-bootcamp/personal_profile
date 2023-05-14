@@ -1,0 +1,15 @@
+.aboutContainer{
+    display: flex;
+    margin: 2rem 0;
+}
+
+.aboutContainer img {
+    width: 30%;
+    height: 300px;
+    margin-right: 4rem;
+}
+
+#about h2{
+    font-size: 3rem;
+    
+}

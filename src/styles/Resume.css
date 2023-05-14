@@ -1,0 +1,33 @@
+#resumeContainer{
+    display: flex;
+    flex-direction: column;
+}
+#resumeContainer ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+}
+
+#resumeContainer ul>li {
+    margin: 2rem;
+}
+
+.techImg {
+    width: 100%;
+    height: 100px;
+}
+#resumeContainer h2{
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+#resumeContainer p{
+    margin: 1rem 0;
+    padding: 0;
+}
+
+#resumeContainer p>a{
+    margin: 0;
+    padding: 0;
+}

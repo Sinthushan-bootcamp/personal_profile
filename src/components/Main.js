@@ -5,6 +5,9 @@ import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Header from "./Header";
 import Resume from './pages/Resume';
+import '../styles/Main.css';
+
+
 export default function Main() {
   const [currentPage, setCurrentPage] = useState('Home');
   const handlePageChange = (page) => setCurrentPage(page);
@@ -25,7 +28,9 @@ export default function Main() {
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <main>
       {renderPage()}
+      </main>
     </div>
   );
 }
