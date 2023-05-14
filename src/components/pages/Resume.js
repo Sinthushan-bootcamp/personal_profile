@@ -5,7 +5,7 @@ export default function Resume() {
   return (
     <section id="resumeContainer">
         <h2>Resume</h2>
-        <p><a href="https://drive.google.com/file/d/1uSSJg1baCIeiZEsj-x_DHuzv6qGdDVWR/view?usp=sharing">Link to my resume</a></p>
+        <p><a href="./Sinthushan Sooriyakumar Resume.pdf" download>Link to my resume</a></p>
         <h3>Technologies</h3>
         <ul>
             <li>
