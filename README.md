@@ -9,7 +9,7 @@ This portfolio website will be an ongoing project to not only host coding projec
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Features](#Features)
+
 
 ## Installation
 
