@@ -18,7 +18,7 @@ const projects = [
     },
     {
         name : 'Weather Dashboard',
-        imageLink : './assets/WeatherDash_SCREENSHOT.PNG',
+        imageLink : './assets/WeatherDash_SCREENSHOT.png',
         imgAlt: 'Weather Dashboard screenshot',
         githubLink : 'https://github.com/sinthushan/WeatherDashboard',
         deployedLink : 'https://sinthushan.github.io/WeatherDashboard/'

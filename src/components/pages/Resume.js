@@ -9,7 +9,7 @@ export default function Resume() {
         <h3>Technologies</h3>
         <ul>
             <li>
-                <img className='techImg' src="./assets/JavaScript-logo.PNG" alt="Javascript logo" />
+                <img className='techImg' src="./assets/JavaScript-logo.png" alt="Javascript logo" />
             </li>
             <li>
                 <img className='techImg' src="./assets/1200px-Node.js_logo.svg.png" alt="Node logo" />
