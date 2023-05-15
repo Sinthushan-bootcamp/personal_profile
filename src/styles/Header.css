@@ -8,3 +8,14 @@ header{
 h1 {
     padding-left: 2rem;
 }
+
+
+@media screen and (max-width: 970px) {
+    header{
+        flex-direction: column;
+        align-items:center;
+    }
+    h1 {
+        padding-bottom: 2rem;
+    }
+}

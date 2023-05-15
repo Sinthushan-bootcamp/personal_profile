@@ -11,5 +11,19 @@
 
 #about h2{
     font-size: 3rem;
-    
+}
+
+@media screen and (max-width: 970px) {
+
+    .aboutContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutContainer img{
+        width: 50%;
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+    }
 }
